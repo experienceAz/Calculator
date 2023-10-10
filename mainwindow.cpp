@@ -49,7 +49,7 @@ void MainWindow::setButtonAnimation()
     QPropertyAnimation* anim1 = new QPropertyAnimation(ui->One, "geometry");
     anim1->setDuration(60); // Длительность анимации
     anim1->setStartValue(ui->One->geometry()); // Стартовая позиция и геометрия анимации
-    anim1->setEndValue(ui->One->geometry().translated(5, 0)); // Конечная позиция и геометрия анимации
+    anim1->setEndValue(ui->One->geometry().translated(0, 2)); // Конечная позиция и геометрия анимации
     animationGroup1->addAnimation(anim1); // Добавим анимацию в группу
     anim1 = new QPropertyAnimation(ui->One, "geometry");
     anim1->setDuration(60); // Длительность анимации
@@ -61,7 +61,7 @@ void MainWindow::setButtonAnimation()
     QPropertyAnimation* anim2 = new QPropertyAnimation(ui->Two, "geometry");
     anim2->setDuration(60); // Длительность анимации
     anim2->setStartValue(ui->Two->geometry()); // Стартовая позиция и геометрия анимации
-    anim2->setEndValue(ui->Two->geometry().translated(5, 0)); // Конечная позиция и геометрия анимации
+    anim2->setEndValue(ui->Two->geometry().translated(0, 2)); // Конечная позиция и геометрия анимации
     animationGroup2->addAnimation(anim2); // Добавим анимацию в группу
     anim2 = new QPropertyAnimation(ui->Two, "geometry");
     anim2->setDuration(60); // Длительность анимации
@@ -73,7 +73,7 @@ void MainWindow::setButtonAnimation()
     QPropertyAnimation* anim3 = new QPropertyAnimation(ui->Three, "geometry");
     anim3->setDuration(60); // Длительность анимации
     anim3->setStartValue(ui->Three->geometry()); // Стартовая позиция и геометрия анимации
-    anim3->setEndValue(ui->Three->geometry().translated(5, 0)); // Конечная позиция и геометрия анимации
+    anim3->setEndValue(ui->Three->geometry().translated(0, 2)); // Конечная позиция и геометрия анимации
     animationGroup3->addAnimation(anim3); // Добавим анимацию в группу
     anim3 = new QPropertyAnimation(ui->Three, "geometry");
     anim3->setDuration(60); // Длительность анимации
@@ -86,7 +86,7 @@ void MainWindow::setButtonAnimation()
     QPropertyAnimation* anim4 = new QPropertyAnimation(ui->Four, "geometry");
     anim4->setDuration(60); // Длительность анимации
     anim4->setStartValue(ui->Four->geometry()); // Стартовая позиция и геометрия анимации
-    anim4->setEndValue(ui->Four->geometry().translated(5, 0)); // Конечная позиция и геометрия анимации
+    anim4->setEndValue(ui->Four->geometry().translated(0, 2)); // Конечная позиция и геометрия анимации
     animationGroup4->addAnimation(anim4); // Добавим анимацию в группу
     anim4 = new QPropertyAnimation(ui->Four, "geometry");
     anim4->setDuration(60); // Длительность анимации
@@ -98,7 +98,7 @@ void MainWindow::setButtonAnimation()
     QPropertyAnimation* anim5 = new QPropertyAnimation(ui->Five, "geometry");
     anim5->setDuration(60); // Длительность анимации
     anim5->setStartValue(ui->Five->geometry()); // Стартовая позиция и геометрия анимации
-    anim5->setEndValue(ui->Five->geometry().translated(5, 0)); // Конечная позиция и геометрия анимации
+    anim5->setEndValue(ui->Five->geometry().translated(0, 2)); // Конечная позиция и геометрия анимации
     animationGroup5->addAnimation(anim5); // Добавим анимацию в группу
     anim5 = new QPropertyAnimation(ui->Five, "geometry");
     anim5->setDuration(60); // Длительность анимации
@@ -110,7 +110,7 @@ void MainWindow::setButtonAnimation()
     QPropertyAnimation* anim6 = new QPropertyAnimation(ui->Six, "geometry");
     anim6->setDuration(60); // Длительность анимации
     anim6->setStartValue(ui->Six->geometry()); // Стартовая позиция и геометрия анимации
-    anim6->setEndValue(ui->Six->geometry().translated(5, 0)); // Конечная позиция и геометрия анимации
+    anim6->setEndValue(ui->Six->geometry().translated(0, 2)); // Конечная позиция и геометрия анимации
     animationGroup6->addAnimation(anim6); // Добавим анимацию в группу
     anim6 = new QPropertyAnimation(ui->Six, "geometry");
     anim6->setDuration(60); // Длительность анимации
@@ -123,7 +123,7 @@ void MainWindow::setButtonAnimation()
     QPropertyAnimation* anim7 = new QPropertyAnimation(ui->Seven, "geometry");
     anim7->setDuration(60); // Длительность анимации
     anim7->setStartValue(ui->Seven->geometry()); // Стартовая позиция и геометрия анимации
-    anim7->setEndValue(ui->Seven->geometry().translated(5, 0)); // Конечная позиция и геометрия анимации
+    anim7->setEndValue(ui->Seven->geometry().translated(0, 2)); // Конечная позиция и геометрия анимации
     animationGroup7->addAnimation(anim7); // Добавим анимацию в группу
     anim7 = new QPropertyAnimation(ui->Seven, "geometry");
     anim7->setDuration(60); // Длительность анимации
@@ -136,7 +136,7 @@ void MainWindow::setButtonAnimation()
     QPropertyAnimation* anim8 = new QPropertyAnimation(ui->Eight, "geometry");
     anim8->setDuration(60); // Длительность анимации
     anim8->setStartValue(ui->Eight->geometry()); // Стартовая позиция и геометрия анимации
-    anim8->setEndValue(ui->Eight->geometry().translated(5, 0)); // Конечная позиция и геометрия анимации
+    anim8->setEndValue(ui->Eight->geometry().translated(0, 2)); // Конечная позиция и геометрия анимации
     animationGroup8->addAnimation(anim8); // Добавим анимацию в группу
     anim8 = new QPropertyAnimation(ui->Eight, "geometry");
     anim8->setDuration(60); // Длительность анимации
@@ -149,7 +149,7 @@ void MainWindow::setButtonAnimation()
     QPropertyAnimation* anim9 = new QPropertyAnimation(ui->Nine, "geometry");
     anim9->setDuration(60); // Длительность анимации
     anim9->setStartValue(ui->Nine->geometry()); // Стартовая позиция и геометрия анимации
-    anim9->setEndValue(ui->Nine->geometry().translated(5, 0)); // Конечная позиция и геометрия анимации
+    anim9->setEndValue(ui->Nine->geometry().translated(0, 2)); // Конечная позиция и геометрия анимации
     animationGroup9->addAnimation(anim9); // Добавим анимацию в группу
     anim9 = new QPropertyAnimation(ui->Nine, "geometry");
     anim9->setDuration(60); // Длительность анимации
@@ -162,7 +162,7 @@ void MainWindow::setButtonAnimation()
     QPropertyAnimation* anim0 = new QPropertyAnimation(ui->Zero, "geometry");
     anim0->setDuration(60); // Длительность анимации
     anim0->setStartValue(ui->Zero->geometry()); // Стартовая позиция и геометрия анимации
-    anim0->setEndValue(ui->Zero->geometry().translated(5, 0)); // Конечная позиция и геометрия анимации
+    anim0->setEndValue(ui->Zero->geometry().translated(0, 2)); // Конечная позиция и геометрия анимации
     animationGroup0->addAnimation(anim0); // Добавим анимацию в группу
     anim0 = new QPropertyAnimation(ui->Zero, "geometry");
     anim0->setDuration(60); // Длительность анимации
@@ -175,7 +175,7 @@ void MainWindow::setButtonAnimation()
     QPropertyAnimation* anim00 = new QPropertyAnimation(ui->Zero2, "geometry");
     anim00->setDuration(60); // Длительность анимации
     anim00->setStartValue(ui->Zero2->geometry()); // Стартовая позиция и геометрия анимации
-    anim00->setEndValue(ui->Zero2->geometry().translated(5, 0)); // Конечная позиция и геометрия анимации
+    anim00->setEndValue(ui->Zero2->geometry().translated(0, 2)); // Конечная позиция и геометрия анимации
     animationGroup00->addAnimation(anim00); // Добавим анимацию в группу
     anim00 = new QPropertyAnimation(ui->Zero2, "geometry");
     anim00->setDuration(60); // Длительность анимации
@@ -188,7 +188,7 @@ void MainWindow::setButtonAnimation()
     QPropertyAnimation* animPoint = new QPropertyAnimation(ui->Point, "geometry");
     animPoint->setDuration(60); // Длительность анимации
     animPoint->setStartValue(ui->Point->geometry()); // Стартовая позиция и геометрия анимации
-    animPoint->setEndValue(ui->Point->geometry().translated(5, 0)); // Конечная позиция и геометрия анимации
+    animPoint->setEndValue(ui->Point->geometry().translated(0, 2)); // Конечная позиция и геометрия анимации
     animationGroupPoint->addAnimation(animPoint); // Добавим анимацию в группу
     animPoint = new QPropertyAnimation(ui->Point, "geometry");
     animPoint->setDuration(60); // Длительность анимации
@@ -200,7 +200,7 @@ void MainWindow::setButtonAnimation()
     QPropertyAnimation* animPlus = new QPropertyAnimation(ui->Plus, "geometry");
     animPlus->setDuration(60); // Длительность анимации
     animPlus->setStartValue(ui->Plus->geometry()); // Стартовая позиция и геометрия анимации
-    animPlus->setEndValue(ui->Plus->geometry().translated(5, 0)); // Конечная позиция и геометрия анимации
+    animPlus->setEndValue(ui->Plus->geometry().translated(0, 2)); // Конечная позиция и геометрия анимации
     animationGroupPlus->addAnimation(animPlus); // Добавим анимацию в группу
     animPlus = new QPropertyAnimation(ui->Plus, "geometry");
     animPlus->setDuration(60); // Длительность анимации
@@ -213,7 +213,7 @@ void MainWindow::setButtonAnimation()
     QPropertyAnimation* animMinus = new QPropertyAnimation(ui->Minus, "geometry");
     animMinus->setDuration(60); // Длительность анимации
     animMinus->setStartValue(ui->Minus->geometry()); // Стартовая позиция и геометрия анимации
-    animMinus->setEndValue(ui->Minus->geometry().translated(5, 0)); // Конечная позиция и геометрия анимации
+    animMinus->setEndValue(ui->Minus->geometry().translated(0, 2)); // Конечная позиция и геометрия анимации
     animationGroupMinus->addAnimation(animMinus); // Добавим анимацию в группу
     animMinus = new QPropertyAnimation(ui->Minus, "geometry");
     animMinus->setDuration(60); // Длительность анимации
@@ -225,7 +225,7 @@ void MainWindow::setButtonAnimation()
     QPropertyAnimation* animMultiply = new QPropertyAnimation(ui->Multiply, "geometry");
     animMultiply->setDuration(60); // Длительность анимации
     animMultiply->setStartValue(ui->Multiply->geometry()); // Стартовая позиция и геометрия анимации
-    animMultiply->setEndValue(ui->Multiply->geometry().translated(5, 0)); // Конечная позиция и геометрия анимации
+    animMultiply->setEndValue(ui->Multiply->geometry().translated(0, 2)); // Конечная позиция и геометрия анимации
     animationGroupMultiply->addAnimation(animMultiply); // Добавим анимацию в группу
     animMultiply = new QPropertyAnimation(ui->Multiply, "geometry");
     animMultiply->setDuration(60); // Длительность анимации
@@ -237,7 +237,7 @@ void MainWindow::setButtonAnimation()
     QPropertyAnimation* animDel = new QPropertyAnimation(ui->Del, "geometry");
     animDel->setDuration(60); // Длительность анимации
     animDel->setStartValue(ui->Del->geometry()); // Стартовая позиция и геометрия анимации
-    animDel->setEndValue(ui->Del->geometry().translated(5, 0)); // Конечная позиция и геометрия анимации
+    animDel->setEndValue(ui->Del->geometry().translated(0, 2)); // Конечная позиция и геометрия анимации
     animationGroupDel->addAnimation(animDel); // Добавим анимацию в группу
     animDel = new QPropertyAnimation(ui->Del, "geometry");
     animDel->setDuration(60); // Длительность анимации
@@ -249,7 +249,7 @@ void MainWindow::setButtonAnimation()
     QPropertyAnimation* animDelX = new QPropertyAnimation(ui->DelX, "geometry");
     animDelX->setDuration(60); // Длительность анимации
     animDelX->setStartValue(ui->DelX->geometry()); // Стартовая позиция и геометрия анимации
-    animDelX->setEndValue(ui->DelX->geometry().translated(5, 0)); // Конечная позиция и геометрия анимации
+    animDelX->setEndValue(ui->DelX->geometry().translated(0, 2)); // Конечная позиция и геометрия анимации
     animationGroupDelX->addAnimation(animDelX); // Добавим анимацию в группу
     animDelX = new QPropertyAnimation(ui->DelX, "geometry");
     animDelX->setDuration(60); // Длительность анимации
@@ -261,7 +261,7 @@ void MainWindow::setButtonAnimation()
     QPropertyAnimation* animPercent = new QPropertyAnimation(ui->Percent, "geometry");
     animPercent->setDuration(60); // Длительность анимации
     animPercent->setStartValue(ui->Percent->geometry()); // Стартовая позиция и геометрия анимации
-    animPercent->setEndValue(ui->Percent->geometry().translated(5, 0)); // Конечная позиция и геометрия анимации
+    animPercent->setEndValue(ui->Percent->geometry().translated(0, 2)); // Конечная позиция и геометрия анимации
     animationGroupPercent->addAnimation(animPercent); // Добавим анимацию в группу
     animPercent = new QPropertyAnimation(ui->Percent, "geometry");
     animPercent->setDuration(60); // Длительность анимации
@@ -274,7 +274,7 @@ void MainWindow::setButtonAnimation()
     QPropertyAnimation* animPlusMinus = new QPropertyAnimation(ui->PlusMinus, "geometry");
     animPlusMinus->setDuration(60); // Длительность анимации
     animPlusMinus->setStartValue(ui->PlusMinus->geometry()); // Стартовая позиция и геометрия анимации
-    animPlusMinus->setEndValue(ui->PlusMinus->geometry().translated(5, 0)); // Конечная позиция и геометрия анимации
+    animPlusMinus->setEndValue(ui->PlusMinus->geometry().translated(0, 2)); // Конечная позиция и геометрия анимации
     animationGroupPlusMinus->addAnimation(animPlusMinus); // Добавим анимацию в группу
     animPlusMinus = new QPropertyAnimation(ui->PlusMinus, "geometry");
     animPlusMinus->setDuration(60); // Длительность анимации
@@ -287,7 +287,7 @@ void MainWindow::setButtonAnimation()
     QPropertyAnimation* animC = new QPropertyAnimation(ui->C, "geometry");
     animC->setDuration(60); // Длительность анимации
     animC->setStartValue(ui->C->geometry()); // Стартовая позиция и геометрия анимации
-    animC->setEndValue(ui->C->geometry().translated(5, 0)); // Конечная позиция и геометрия анимации
+    animC->setEndValue(ui->C->geometry().translated(0, 2)); // Конечная позиция и геометрия анимации
     animationGroupC->addAnimation(animC); // Добавим анимацию в группу
     animC = new QPropertyAnimation(ui->C, "geometry");
     animC->setDuration(60); // Длительность анимации
@@ -300,7 +300,7 @@ void MainWindow::setButtonAnimation()
     QPropertyAnimation* animCE = new QPropertyAnimation(ui->CE, "geometry");
     animCE->setDuration(60); // Длительность анимации
     animCE->setStartValue(ui->CE->geometry()); // Стартовая позиция и геометрия анимации
-    animCE->setEndValue(ui->CE->geometry().translated(5, 0)); // Конечная позиция и геометрия анимации
+    animCE->setEndValue(ui->CE->geometry().translated(0, 2)); // Конечная позиция и геометрия анимации
     animationGroupCE->addAnimation(animCE); // Добавим анимацию в группу
     animCE = new QPropertyAnimation(ui->CE, "geometry");
     animCE->setDuration(60); // Длительность анимации
@@ -313,7 +313,7 @@ void MainWindow::setButtonAnimation()
     QPropertyAnimation* animStrelka = new QPropertyAnimation(ui->Strelka, "geometry");
     animStrelka->setDuration(60); // Длительность анимации
     animStrelka->setStartValue(ui->Strelka->geometry()); // Стартовая позиция и геометрия анимации
-    animStrelka->setEndValue(ui->Strelka->geometry().translated(5, 0)); // Конечная позиция и геометрия анимации
+    animStrelka->setEndValue(ui->Strelka->geometry().translated(0, 2)); // Конечная позиция и геометрия анимации
     animationGroupStrelka->addAnimation(animStrelka); // Добавим анимацию в группу
     animStrelka = new QPropertyAnimation(ui->Strelka, "geometry");
     animStrelka->setDuration(60); // Длительность анимации
@@ -326,7 +326,7 @@ void MainWindow::setButtonAnimation()
     QPropertyAnimation* animEqual = new QPropertyAnimation(ui->Equal, "geometry");
     animEqual->setDuration(60); // Длительность анимации
     animEqual->setStartValue(ui->Equal->geometry()); // Стартовая позиция и геометрия анимации
-    animEqual->setEndValue(ui->Equal->geometry().translated(5, 0)); // Конечная позиция и геометрия анимации
+    animEqual->setEndValue(ui->Equal->geometry().translated(0, 2)); // Конечная позиция и геометрия анимации
     animationGroupEqual->addAnimation(animEqual); // Добавим анимацию в группу
     animEqual = new QPropertyAnimation(ui->Equal, "geometry");
     animEqual->setDuration(60); // Длительность анимации
@@ -588,7 +588,7 @@ void MainWindow::on_Plus_clicked()
 {
     animationGroupPlus->start();
 
-//    ClickProcessing('+');
+    ClickProcessing('+');
     repeatOperation = false;
     lastOperation = '+';
 }
@@ -601,58 +601,112 @@ void MainWindow::ClickProcessing(char operation)
         if (lastOperation == '+')
         {
             ValueSaved = ValueSaved + stof(currentValue);
+            arifmOperations();
         }
 
         else if (lastOperation == '-')
         {
             ValueSaved = ValueSaved - stof(currentValue);
+            arifmOperations();
         }
-    }
 
-    else
-    {
-        ValueSaved = stof(currentValue);
-        lastOperation = operation;
-    }
+        else if (lastOperation == '*')
+        {
+            ValueSaved = ValueSaved * stof(currentValue);
+            arifmOperations();
+        }
+
+        else if (lastOperation == '/')
+        {
+            ValueSaved = ValueSaved / stof(currentValue);
+            arifmOperations();
+        }
+
+        else
+        {
+            ValueSaved = stof(currentValue);
+            lastOperation = operation;
+        }
 
     CountOfOperations = CountOfOperations + 1;
 
-    int index = ui->ValueCalculated->currentIndex();
-    ui->ValueCalculated->setItemText(index, QString::fromStdString(""));
+    ui->ValueCalculated->removeItem(ui->ValueCalculated->currentIndex());
+    ui->ValueCalculated->setCurrentText(QString::fromStdString(""));
 
     penultimateOperation = operation;
 
+    }
+
+}
+
+
+void MainWindow::arifmOperations()
+{
+    string currentText = ui->ValueCalculated->currentText().toStdString();
+
+    valueForSavedOperation = stof(currentText);
 }
 
 
 void MainWindow::on_Equal_clicked()
 {
-
     animationGroupEqual->start();
 
     if (lastOperation == '+') {
 
         float tempValueCalculated = ValueSaved + ui->ValueCalculated->currentText().toFloat();
 
-        if (CountOfOperations > 1)
-        {
-            Formula = Formula;
-        }
-
         ValueSaved = tempValueCalculated;
-        valueForSavedOperatio = ui->ValueCalculated->currentText().toFloat();
+        valueForSavedOperation = ui->ValueCalculated->currentText().toFloat();
         lastOperation = '=';
         penultimateOperation = '+';
-
     }
 
+    else if (lastOperation == '-')
+    {
+        float tempValueCalculated = ValueSaved - ui->ValueCalculated->currentText().toFloat();
+
+        ValueSaved = tempValueCalculated;
+        valueForSavedOperation = ui->ValueCalculated->currentText().toFloat();
+        lastOperation = '=';
+        penultimateOperation = '-';
+    }
+
+    else if (lastOperation == '=')
+    {
+        if (penultimateOperation == '+') {
+
+            float tempValueCalculated = ValueSaved + valueForSavedOperation;
+
+            ValueSaved = tempValueCalculated;
+        }
+
+        if (penultimateOperation == '-') {
+
+            float tempValueCalculated = ValueSaved - valueForSavedOperation;
+
+            ValueSaved = tempValueCalculated;
+        }
+    }
+
+    ui->ValueCalculated->removeItem(ui->ValueCalculated->currentIndex());
+    ui->ValueCalculated->addItem(QString::number(ValueSaved));
+    ui->ValueCalculated->setCurrentText(QString::number(ValueSaved));
+
+    repeatOperation = true;
+    newValue = true;
+    CountOfOperations = 0;
 }
 
 
 
 void MainWindow::on_Minus_clicked()
 {
-    animationGroupMinus->start();
+    animationGroupPlus->start();
+
+    ClickProcessing('-');
+    repeatOperation = false;
+    lastOperation = '-';
 
 }
 
@@ -733,4 +787,3 @@ void MainWindow::on_Point_clicked()
 {
     animationGroupPoint->start();
 }
-

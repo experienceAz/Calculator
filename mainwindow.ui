@@ -70,9 +70,15 @@
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-color: rgb(184, 184, 184);
+     <string notr="true">QPushButton {
+background-color: rgb(184, 184, 184);
 color: rgb(0, 0, 0);
-border-radius: 5px;</string>
+border-radius: 5px;
+}
+
+QPushButton:pressed {
+background-color: rgb(159, 159, 159);
+}</string>
     </property>
     <property name="text">
      <string>1</string>
@@ -88,9 +94,15 @@ border-radius: 5px;</string>
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-color: rgb(184, 184, 184);
+     <string notr="true">QPushButton {
+background-color: rgb(184, 184, 184);
 color: rgb(0, 0, 0);
-border-radius: 5px;</string>
+border-radius: 5px;
+}
+
+QPushButton:pressed {
+background-color: rgb(159, 159, 159);
+}</string>
     </property>
     <property name="text">
      <string>2</string>
@@ -106,9 +118,15 @@ border-radius: 5px;</string>
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-color: rgb(184, 184, 184);
+     <string notr="true">QPushButton {
+background-color: rgb(184, 184, 184);
 color: rgb(0, 0, 0);
-border-radius: 5px;</string>
+border-radius: 5px;
+}
+
+QPushButton:pressed {
+background-color: rgb(159, 159, 159);
+}</string>
     </property>
     <property name="text">
      <string>3</string>
@@ -124,9 +142,15 @@ border-radius: 5px;</string>
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-color: rgb(184, 184, 184);
+     <string notr="true">QPushButton {
+background-color: rgb(184, 184, 184);
 color: rgb(0, 0, 0);
-border-radius: 5px;</string>
+border-radius: 5px;
+}
+
+QPushButton:pressed {
+background-color: rgb(159, 159, 159);
+}</string>
     </property>
     <property name="text">
      <string>4</string>
@@ -142,9 +166,15 @@ border-radius: 5px;</string>
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-color: rgb(184, 184, 184);
+     <string notr="true">QPushButton {
+background-color: rgb(184, 184, 184);
 color: rgb(0, 0, 0);
-border-radius: 5px;</string>
+border-radius: 5px;
+}
+
+QPushButton:pressed {
+background-color: rgb(159, 159, 159);
+}</string>
     </property>
     <property name="text">
      <string>5</string>
@@ -160,9 +190,15 @@ border-radius: 5px;</string>
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-color: rgb(184, 184, 184);
+     <string notr="true">QPushButton {
+background-color: rgb(184, 184, 184);
 color: rgb(0, 0, 0);
-border-radius: 5px;</string>
+border-radius: 5px;
+}
+
+QPushButton:pressed {
+background-color: rgb(159, 159, 159);
+}</string>
     </property>
     <property name="text">
      <string>6</string>
@@ -178,9 +214,15 @@ border-radius: 5px;</string>
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-color: rgb(184, 184, 184);
+     <string notr="true">QPushButton {
+background-color: rgb(184, 184, 184);
 color: rgb(0, 0, 0);
-border-radius: 5px;</string>
+border-radius: 5px;
+}
+
+QPushButton:pressed {
+background-color: rgb(159, 159, 159);
+}</string>
     </property>
     <property name="text">
      <string>7</string>
@@ -196,9 +238,15 @@ border-radius: 5px;</string>
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-color: rgb(184, 184, 184);
+     <string notr="true">QPushButton {
+background-color: rgb(184, 184, 184);
 color: rgb(0, 0, 0);
-border-radius: 5px;</string>
+border-radius: 5px;
+}
+
+QPushButton:pressed {
+background-color: rgb(159, 159, 159);
+}</string>
     </property>
     <property name="text">
      <string>8</string>
@@ -214,9 +262,15 @@ border-radius: 5px;</string>
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-color: rgb(184, 184, 184);
+     <string notr="true">QPushButton {
+background-color: rgb(184, 184, 184);
 color: rgb(0, 0, 0);
-border-radius: 5px;</string>
+border-radius: 5px;
+}
+
+QPushButton:pressed {
+background-color: rgb(159, 159, 159);
+}</string>
     </property>
     <property name="text">
      <string>9</string>
@@ -232,9 +286,15 @@ border-radius: 5px;</string>
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-color: rgb(184, 184, 184);
+     <string notr="true">QPushButton {
+background-color: rgb(184, 184, 184);
 color: rgb(0, 0, 0);
-border-radius: 5px;</string>
+border-radius: 5px;
+}
+
+QPushButton:pressed {
+background-color: rgb(159, 159, 159);
+}</string>
     </property>
     <property name="text">
      <string>0</string>
@@ -250,9 +310,15 @@ border-radius: 5px;</string>
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-color: rgb(184, 184, 184);
+     <string notr="true">QPushButton {
+background-color: rgb(184, 184, 184);
 color: rgb(0, 0, 0);
-border-radius: 5px;</string>
+border-radius: 5px;
+}
+
+QPushButton:pressed {
+background-color: rgb(159, 159, 159);
+}</string>
     </property>
     <property name="text">
      <string>00</string>
@@ -268,9 +334,15 @@ border-radius: 5px;</string>
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-color: rgb(184, 184, 184);
+     <string notr="true">QPushButton {
+background-color: rgb(184, 184, 184);
 color: rgb(0, 0, 0);
-border-radius: 5px;</string>
+border-radius: 5px;
+}
+
+QPushButton:pressed {
+background-color: rgb(159, 159, 159);
+}</string>
     </property>
     <property name="text">
      <string>.</string>
@@ -286,9 +358,15 @@ border-radius: 5px;</string>
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-color: rgb(246, 136, 15);
+     <string notr="true">QPushButton {
+background-color: rgb(246, 136, 15);
 color: rgb(255, 255, 255);
-border-radius: 5px;</string>
+border-radius: 5px;
+}
+
+QPushButton:pressed {
+background-color: rgb(226, 124, 14);
+}</string>
     </property>
     <property name="text">
      <string>CE</string>
@@ -304,9 +382,15 @@ border-radius: 5px;</string>
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-color: rgb(246, 136, 15);
+     <string notr="true">QPushButton {
+background-color: rgb(246, 136, 15);
 color: rgb(255, 255, 255);
-border-radius: 5px;</string>
+border-radius: 5px;
+}
+
+QPushButton:pressed {
+background-color: rgb(226, 124, 14);
+}</string>
     </property>
     <property name="text">
      <string>&lt;-</string>
@@ -322,9 +406,15 @@ border-radius: 5px;</string>
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-color: rgb(246, 136, 15);
+     <string notr="true">QPushButton {
+background-color: rgb(246, 136, 15);
 color: rgb(255, 255, 255);
-border-radius: 5px;</string>
+border-radius: 5px;
+}
+
+QPushButton:pressed {
+background-color: rgb(226, 124, 14);
+}</string>
     </property>
     <property name="text">
      <string>C</string>
@@ -340,9 +430,15 @@ border-radius: 5px;</string>
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-color: rgb(246, 136, 15);
+     <string notr="true">QPushButton {
+background-color: rgb(246, 136, 15);
 color: rgb(255, 255, 255);
-border-radius: 5px;</string>
+border-radius: 5px;
+}
+
+QPushButton:pressed {
+background-color: rgb(226, 124, 14);
+}</string>
     </property>
     <property name="text">
      <string>-</string>
@@ -358,9 +454,15 @@ border-radius: 5px;</string>
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-color: rgb(246, 136, 15);
+     <string notr="true">QPushButton {
+background-color: rgb(246, 136, 15);
 color: rgb(255, 255, 255);
-border-radius: 5px;</string>
+border-radius: 5px;
+}
+
+QPushButton:pressed {
+background-color: rgb(226, 124, 14);
+}</string>
     </property>
     <property name="text">
      <string>+</string>
@@ -376,9 +478,15 @@ border-radius: 5px;</string>
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-color: rgb(246, 136, 15);
+     <string notr="true">QPushButton {
+background-color: rgb(246, 136, 15);
 color: rgb(255, 255, 255);
-border-radius: 5px;</string>
+border-radius: 5px;
+}
+
+QPushButton:pressed {
+background-color: rgb(226, 124, 14);
+}</string>
     </property>
     <property name="text">
      <string>*</string>
@@ -394,9 +502,15 @@ border-radius: 5px;</string>
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-color: rgb(246, 136, 15);
+     <string notr="true">QPushButton {
+background-color: rgb(246, 136, 15);
 color: rgb(255, 255, 255);
-border-radius: 5px;</string>
+border-radius: 5px;
+}
+
+QPushButton:pressed {
+background-color: rgb(226, 124, 14);
+}</string>
     </property>
     <property name="text">
      <string>/</string>
@@ -412,9 +526,15 @@ border-radius: 5px;</string>
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-color: rgb(246, 136, 15);
+     <string notr="true">QPushButton {
+background-color: rgb(246, 136, 15);
 color: rgb(255, 255, 255);
-border-radius: 5px;</string>
+border-radius: 5px;
+}
+
+QPushButton:pressed {
+background-color: rgb(226, 124, 14);
+}</string>
     </property>
     <property name="text">
      <string>+/-</string>
@@ -430,9 +550,15 @@ border-radius: 5px;</string>
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-color: rgb(246, 136, 15);
+     <string notr="true">QPushButton {
+background-color: rgb(246, 136, 15);
 color: rgb(255, 255, 255);
-border-radius: 5px;</string>
+border-radius: 5px;
+}
+
+QPushButton:pressed {
+background-color: rgb(226, 124, 14);
+}</string>
     </property>
     <property name="text">
      <string>1/x</string>
@@ -448,9 +574,15 @@ border-radius: 5px;</string>
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-color: rgb(246, 136, 15);
+     <string notr="true">QPushButton {
+background-color: rgb(246, 136, 15);
 color: rgb(255, 255, 255);
-border-radius: 5px;</string>
+border-radius: 5px;
+}
+
+QPushButton:pressed {
+background-color: rgb(226, 124, 14);
+}</string>
     </property>
     <property name="text">
      <string>=</string>
@@ -466,9 +598,15 @@ border-radius: 5px;</string>
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-color: rgb(246, 136, 15);
+     <string notr="true">QPushButton {
+background-color: rgb(246, 136, 15);
 color: rgb(255, 255, 255);
-border-radius: 5px;</string>
+border-radius: 5px;
+}
+
+QPushButton:pressed {
+background-color: rgb(226, 124, 14);
+}</string>
     </property>
     <property name="text">
      <string>%</string>

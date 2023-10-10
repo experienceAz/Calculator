@@ -20,6 +20,8 @@ public:
     MainWindow(QWidget *parent = nullptr);
     ~MainWindow();
     void setButtonAnimation();
+    void arifmOperations();
+    void ClickProcessing(char operation);
 
 private slots:
     void on_One_clicked();
@@ -46,8 +48,6 @@ private slots:
 
     void on_Plus_clicked();
 
-    void ClickProcessing(char operation);
-
     void on_Equal_clicked();
 
     void on_Minus_clicked();
@@ -69,6 +69,7 @@ private slots:
     void on_Strelka_clicked();
 
     void on_Point_clicked();
+
 
 private:
     Ui::MainWindow *ui;
@@ -99,13 +100,14 @@ private:
     QSequentialAnimationGroup* animationGroupStrelka;
 
     char lastOperation;
+    char penultimateOperation;
     float ValueSaved;
-    float valueForSavedOperatio;
+    float valueForSavedOperation;
     bool repeatOperation;
-    bool penultimateOperation;
     int CountOfOperations;
     string Formula;
     string Formuls;
+    bool newValue;
 
 };
 #endif // MAINWINDOW_H
