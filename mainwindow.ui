@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>471</width>
-    <height>433</height>
+    <width>443</width>
+    <height>420</height>
    </rect>
   </property>
   <property name="palette">
@@ -63,8 +63,8 @@
    <widget class="QPushButton" name="One">
     <property name="geometry">
      <rect>
-      <x>120</x>
-      <y>270</y>
+      <x>115</x>
+      <y>250</y>
       <width>51</width>
       <height>41</height>
      </rect>
@@ -87,8 +87,8 @@ background-color: rgb(159, 159, 159);
    <widget class="QPushButton" name="Two">
     <property name="geometry">
      <rect>
-      <x>180</x>
-      <y>270</y>
+      <x>175</x>
+      <y>250</y>
       <width>51</width>
       <height>41</height>
      </rect>
@@ -111,8 +111,8 @@ background-color: rgb(159, 159, 159);
    <widget class="QPushButton" name="Three">
     <property name="geometry">
      <rect>
-      <x>240</x>
-      <y>270</y>
+      <x>235</x>
+      <y>250</y>
       <width>51</width>
       <height>41</height>
      </rect>
@@ -135,8 +135,8 @@ background-color: rgb(159, 159, 159);
    <widget class="QPushButton" name="Four">
     <property name="geometry">
      <rect>
-      <x>120</x>
-      <y>220</y>
+      <x>115</x>
+      <y>200</y>
       <width>51</width>
       <height>41</height>
      </rect>
@@ -159,8 +159,8 @@ background-color: rgb(159, 159, 159);
    <widget class="QPushButton" name="Five">
     <property name="geometry">
      <rect>
-      <x>180</x>
-      <y>220</y>
+      <x>175</x>
+      <y>200</y>
       <width>51</width>
       <height>41</height>
      </rect>
@@ -183,8 +183,8 @@ background-color: rgb(159, 159, 159);
    <widget class="QPushButton" name="Six">
     <property name="geometry">
      <rect>
-      <x>240</x>
-      <y>220</y>
+      <x>235</x>
+      <y>200</y>
       <width>51</width>
       <height>41</height>
      </rect>
@@ -207,8 +207,8 @@ background-color: rgb(159, 159, 159);
    <widget class="QPushButton" name="Seven">
     <property name="geometry">
      <rect>
-      <x>120</x>
-      <y>170</y>
+      <x>115</x>
+      <y>150</y>
       <width>51</width>
       <height>41</height>
      </rect>
@@ -231,8 +231,8 @@ background-color: rgb(159, 159, 159);
    <widget class="QPushButton" name="Eight">
     <property name="geometry">
      <rect>
-      <x>180</x>
-      <y>170</y>
+      <x>175</x>
+      <y>150</y>
       <width>51</width>
       <height>41</height>
      </rect>
@@ -255,8 +255,8 @@ background-color: rgb(159, 159, 159);
    <widget class="QPushButton" name="Nine">
     <property name="geometry">
      <rect>
-      <x>240</x>
-      <y>170</y>
+      <x>235</x>
+      <y>150</y>
       <width>51</width>
       <height>41</height>
      </rect>
@@ -279,8 +279,8 @@ background-color: rgb(159, 159, 159);
    <widget class="QPushButton" name="Zero">
     <property name="geometry">
      <rect>
-      <x>120</x>
-      <y>320</y>
+      <x>115</x>
+      <y>300</y>
       <width>51</width>
       <height>41</height>
      </rect>
@@ -303,8 +303,8 @@ background-color: rgb(159, 159, 159);
    <widget class="QPushButton" name="Zero2">
     <property name="geometry">
      <rect>
-      <x>180</x>
-      <y>320</y>
+      <x>175</x>
+      <y>300</y>
       <width>51</width>
       <height>41</height>
      </rect>
@@ -327,8 +327,8 @@ background-color: rgb(159, 159, 159);
    <widget class="QPushButton" name="Point">
     <property name="geometry">
      <rect>
-      <x>240</x>
-      <y>320</y>
+      <x>235</x>
+      <y>300</y>
       <width>51</width>
       <height>41</height>
      </rect>
@@ -351,8 +351,8 @@ background-color: rgb(159, 159, 159);
    <widget class="QPushButton" name="CE">
     <property name="geometry">
      <rect>
-      <x>180</x>
-      <y>120</y>
+      <x>175</x>
+      <y>100</y>
       <width>51</width>
       <height>41</height>
      </rect>
@@ -375,8 +375,8 @@ background-color: rgb(226, 124, 14);
    <widget class="QPushButton" name="Strelka">
     <property name="geometry">
      <rect>
-      <x>120</x>
-      <y>120</y>
+      <x>115</x>
+      <y>100</y>
       <width>51</width>
       <height>41</height>
      </rect>
@@ -399,8 +399,8 @@ background-color: rgb(226, 124, 14);
    <widget class="QPushButton" name="C">
     <property name="geometry">
      <rect>
-      <x>240</x>
-      <y>120</y>
+      <x>235</x>
+      <y>100</y>
       <width>51</width>
       <height>41</height>
      </rect>
@@ -423,8 +423,8 @@ background-color: rgb(226, 124, 14);
    <widget class="QPushButton" name="Minus">
     <property name="geometry">
      <rect>
-      <x>300</x>
-      <y>220</y>
+      <x>295</x>
+      <y>200</y>
       <width>51</width>
       <height>41</height>
      </rect>
@@ -447,8 +447,8 @@ background-color: rgb(226, 124, 14);
    <widget class="QPushButton" name="Plus">
     <property name="geometry">
      <rect>
-      <x>300</x>
-      <y>270</y>
+      <x>295</x>
+      <y>250</y>
       <width>51</width>
       <height>91</height>
      </rect>
@@ -471,8 +471,8 @@ background-color: rgb(226, 124, 14);
    <widget class="QPushButton" name="Multiply">
     <property name="geometry">
      <rect>
-      <x>300</x>
-      <y>170</y>
+      <x>295</x>
+      <y>150</y>
       <width>51</width>
       <height>41</height>
      </rect>
@@ -495,8 +495,8 @@ background-color: rgb(226, 124, 14);
    <widget class="QPushButton" name="Del">
     <property name="geometry">
      <rect>
-      <x>300</x>
-      <y>120</y>
+      <x>295</x>
+      <y>100</y>
       <width>51</width>
       <height>41</height>
      </rect>
@@ -519,8 +519,8 @@ background-color: rgb(226, 124, 14);
    <widget class="QPushButton" name="PlusMinus">
     <property name="geometry">
      <rect>
-      <x>360</x>
-      <y>120</y>
+      <x>355</x>
+      <y>100</y>
       <width>51</width>
       <height>41</height>
      </rect>
@@ -543,8 +543,8 @@ background-color: rgb(226, 124, 14);
    <widget class="QPushButton" name="DelX">
     <property name="geometry">
      <rect>
-      <x>360</x>
-      <y>220</y>
+      <x>355</x>
+      <y>200</y>
       <width>51</width>
       <height>41</height>
      </rect>
@@ -567,8 +567,8 @@ background-color: rgb(226, 124, 14);
    <widget class="QPushButton" name="Equal">
     <property name="geometry">
      <rect>
-      <x>360</x>
-      <y>270</y>
+      <x>355</x>
+      <y>250</y>
       <width>51</width>
       <height>91</height>
      </rect>
@@ -591,8 +591,8 @@ background-color: rgb(226, 124, 14);
    <widget class="QPushButton" name="Percent">
     <property name="geometry">
      <rect>
-      <x>360</x>
-      <y>170</y>
+      <x>355</x>
+      <y>150</y>
       <width>51</width>
       <height>41</height>
      </rect>
@@ -612,91 +612,121 @@ background-color: rgb(226, 124, 14);
      <string>%</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_24">
+   <widget class="QPushButton" name="MMinus">
     <property name="geometry">
      <rect>
-      <x>40</x>
-      <y>270</y>
-      <width>41</width>
+      <x>35</x>
+      <y>250</y>
+      <width>51</width>
       <height>41</height>
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-color: rgb(145, 145, 145);
+     <string notr="true">QPushButton {
+background-color: rgb(145, 145, 145);
 color: rgb(0, 0, 0);
-border-radius: 5px;</string>
+border-radius: 5px;
+}
+
+QPushButton:pressed {
+background-color: rgb(103, 103, 103);
+}</string>
     </property>
     <property name="text">
      <string>M-</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_25">
+   <widget class="QPushButton" name="MPlus">
     <property name="geometry">
      <rect>
-      <x>40</x>
-      <y>220</y>
-      <width>41</width>
+      <x>35</x>
+      <y>200</y>
+      <width>51</width>
       <height>41</height>
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-color: rgb(145, 145, 145);
+     <string notr="true">QPushButton {
+background-color: rgb(145, 145, 145);
 color: rgb(0, 0, 0);
-border-radius: 5px;</string>
+border-radius: 5px;
+}
+
+QPushButton:pressed {
+background-color: rgb(103, 103, 103);
+}</string>
     </property>
     <property name="text">
      <string>M+</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_26">
+   <widget class="QPushButton" name="MR">
     <property name="geometry">
      <rect>
-      <x>40</x>
-      <y>170</y>
-      <width>41</width>
+      <x>35</x>
+      <y>150</y>
+      <width>51</width>
       <height>41</height>
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-color: rgb(145, 145, 145);
+     <string notr="true">QPushButton {
+background-color: rgb(145, 145, 145);
 color: rgb(0, 0, 0);
-border-radius: 5px;</string>
+border-radius: 5px;
+}
+
+QPushButton:pressed {
+background-color: rgb(103, 103, 103);
+}</string>
     </property>
     <property name="text">
      <string>MR</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_27">
+   <widget class="QPushButton" name="MS">
     <property name="geometry">
      <rect>
-      <x>40</x>
-      <y>120</y>
-      <width>41</width>
+      <x>35</x>
+      <y>100</y>
+      <width>51</width>
       <height>41</height>
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-color: rgb(145, 145, 145);
+     <string notr="true">QPushButton {
+background-color: rgb(145, 145, 145);
 color: rgb(0, 0, 0);
-border-radius: 5px;</string>
+border-radius: 5px;
+}
+
+QPushButton:pressed {
+background-color: rgb(103, 103, 103);
+}</string>
     </property>
     <property name="text">
      <string>MS</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_28">
+   <widget class="QPushButton" name="MC">
     <property name="geometry">
      <rect>
-      <x>40</x>
-      <y>320</y>
-      <width>41</width>
+      <x>35</x>
+      <y>300</y>
+      <width>51</width>
       <height>41</height>
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-color: rgb(145, 145, 145);
+     <string notr="true">QPushButton {
+background-color: rgb(145, 145, 145);
 color: rgb(0, 0, 0);
-border-radius: 5px;</string>
+border-radius: 5px;
+}
+
+QPushButton:pressed {
+background-color: rgb(103, 103, 103);
+}</string>
     </property>
     <property name="text">
      <string>MC</string>
@@ -706,7 +736,7 @@ border-radius: 5px;</string>
     <property name="geometry">
      <rect>
       <x>50</x>
-      <y>80</y>
+      <y>60</y>
       <width>28</width>
       <height>22</height>
      </rect>
@@ -838,12 +868,12 @@ border-radius: 5px;</string>
    </widget>
    <widget class="QLineEdit" name="temporaryValue">
     <property name="enabled">
-     <bool>true</bool>
+     <bool>false</bool>
     </property>
     <property name="geometry">
      <rect>
-      <x>120</x>
-      <y>80</y>
+      <x>115</x>
+      <y>60</y>
       <width>291</width>
       <height>31</height>
      </rect>
@@ -869,86 +899,11 @@ background-color: white;</string>
      <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
     </property>
    </widget>
-   <widget class="QComboBox" name="comboBox">
-    <property name="geometry">
-     <rect>
-      <x>70</x>
-      <y>120</y>
-      <width>21</width>
-      <height>41</height>
-     </rect>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">background-color: rgb(145, 145, 145);
-color: rgb(0, 0, 0);
-border-radius: 5px;</string>
-    </property>
-   </widget>
-   <widget class="QComboBox" name="comboBox_2">
-    <property name="geometry">
-     <rect>
-      <x>70</x>
-      <y>170</y>
-      <width>21</width>
-      <height>41</height>
-     </rect>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">background-color: rgb(145, 145, 145);
-color: rgb(0, 0, 0);
-border-radius: 5px;</string>
-    </property>
-   </widget>
-   <widget class="QComboBox" name="comboBox_3">
-    <property name="geometry">
-     <rect>
-      <x>70</x>
-      <y>220</y>
-      <width>21</width>
-      <height>41</height>
-     </rect>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">background-color: rgb(145, 145, 145);
-color: rgb(0, 0, 0);
-border-radius: 5px;</string>
-    </property>
-   </widget>
-   <widget class="QComboBox" name="comboBox_4">
-    <property name="geometry">
-     <rect>
-      <x>70</x>
-      <y>270</y>
-      <width>21</width>
-      <height>41</height>
-     </rect>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">background-color: rgb(145, 145, 145);
-color: rgb(0, 0, 0);
-border-radius: 5px;</string>
-    </property>
-   </widget>
-   <widget class="QComboBox" name="comboBox_5">
-    <property name="geometry">
-     <rect>
-      <x>70</x>
-      <y>320</y>
-      <width>21</width>
-      <height>41</height>
-     </rect>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">background-color: rgb(145, 145, 145);
-color: rgb(0, 0, 0);
-border-radius: 5px;</string>
-    </property>
-   </widget>
    <widget class="QComboBox" name="ValueCalculated">
     <property name="geometry">
      <rect>
-      <x>120</x>
-      <y>40</y>
+      <x>115</x>
+      <y>20</y>
       <width>291</width>
       <height>31</height>
      </rect>
@@ -965,19 +920,25 @@ background-color: white;</string>
      <string/>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_29">
+   <widget class="QPushButton" name="Menu">
     <property name="geometry">
      <rect>
-      <x>45</x>
-      <y>50</y>
+      <x>40</x>
+      <y>25</y>
       <width>41</width>
       <height>21</height>
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-color: rgb(184, 184, 184);
+     <string notr="true">QPushButton {
+background-color: rgb(184, 184, 184);
 color: rgb(0, 0, 0);
-border-radius: 5px;</string>
+border-radius: 5px;
+}
+
+QPushButton:pressed {
+background-color: rgb(159, 159, 159);
+}</string>
     </property>
     <property name="text">
      <string>-&gt;</string>
@@ -989,7 +950,7 @@ border-radius: 5px;</string>
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>471</width>
+     <width>443</width>
      <height>22</height>
     </rect>
    </property>

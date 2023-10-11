@@ -20,7 +20,7 @@ public:
     MainWindow(QWidget *parent = nullptr);
     ~MainWindow();
     void setButtonAnimation();
-    void arifmOperations();
+    void arifmOperations(char operation);
     void ClickProcessing(char operation);
 
 private slots:
@@ -70,6 +70,15 @@ private slots:
 
     void on_Point_clicked();
 
+    void on_MC_clicked();
+
+    void on_MMinus_clicked();
+
+    void on_MPlus_clicked();
+
+    void on_MR_clicked();
+
+    void on_MS_clicked();
 
 private:
     Ui::MainWindow *ui;
@@ -99,15 +108,23 @@ private:
     QSequentialAnimationGroup* animationGroupCE;
     QSequentialAnimationGroup* animationGroupStrelka;
 
+    QSequentialAnimationGroup* animationGroupMS;
+    QSequentialAnimationGroup* animationGroupMR;
+    QSequentialAnimationGroup* animationGroupMPlus;
+    QSequentialAnimationGroup* animationGroupMMinus;
+    QSequentialAnimationGroup* animationGroupMC;
+
     char lastOperation;
     char penultimateOperation;
-    float ValueSaved;
-    float valueForSavedOperation;
+    char penultimateOperationPrev;
+    double ValueSaved;
+    double valueForSavedOperation;
     bool repeatOperation;
     int CountOfOperations;
     string Formula;
     string Formuls;
     bool newValue;
+    double tempValue;
 
 };
 #endif // MAINWINDOW_H

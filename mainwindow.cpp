@@ -43,10 +43,78 @@ void MainWindow::setButtonAnimation()
     animationGroupCE = new QSequentialAnimationGroup(this);
     animationGroupStrelka = new QSequentialAnimationGroup(this);
 
+    animationGroupMS = new QSequentialAnimationGroup(this);
+    animationGroupMR = new QSequentialAnimationGroup(this);
+    animationGroupMPlus = new QSequentialAnimationGroup(this);
+    animationGroupMMinus = new QSequentialAnimationGroup(this);
+    animationGroupMC = new QSequentialAnimationGroup(this);
+
+    // MS
+    QPropertyAnimation* animMS = new QPropertyAnimation(ui->MS, "geometry");
+    animMS->setDuration(60); // Длительность анимации
+    animMS->setStartValue(ui->MS->geometry()); // Стартовая позиция и геометрия анимации
+    animMS->setEndValue(ui->MS->geometry().translated(0, 2)); // Конечная позиция и геометрия анимации
+    animationGroupMS->addAnimation(animMS); // Добавим анимацию в группу
+    animMS = new QPropertyAnimation(ui->MS, "geometry");
+    animMS->setDuration(60); // Длительность анимации
+    animMS->setStartValue(ui->MS->geometry()); // Стартовая позиция и геометрия анимации
+    animMS->setEndValue(ui->MS->geometry().translated(0, 0)); // Конечная позиция и геометрия анимации
+    animationGroupMS->addAnimation(animMS); // Добавим анимацию в группу
+
+    // MR
+    QPropertyAnimation* animMR = new QPropertyAnimation(ui->MR, "geometry");
+    animMR->setDuration(60); // Длительность анимации
+    animMR->setStartValue(ui->MR->geometry()); // Стартовая позиция и геометрия анимации
+    animMR->setEndValue(ui->MR->geometry().translated(0, 2)); // Конечная позиция и геометрия анимации
+    animationGroupMR->addAnimation(animMR); // Добавим анимацию в группу
+    animMR = new QPropertyAnimation(ui->MR, "geometry");
+    animMR->setDuration(60); // Длительность анимации
+    animMR->setStartValue(ui->MR->geometry()); // Стартовая позиция и геометрия анимации
+    animMR->setEndValue(ui->MR->geometry().translated(0, 0)); // Конечная позиция и геометрия анимации
+    animationGroupMR->addAnimation(animMR); // Добавим анимацию в группу
+
+    // MPlus
+    QPropertyAnimation* animMPlus = new QPropertyAnimation(ui->MPlus, "geometry");
+    animMPlus->setDuration(60); // Длительность анимации
+    animMPlus->setStartValue(ui->MPlus->geometry()); // Стартовая позиция и геометрия анимации
+    animMPlus->setEndValue(ui->MPlus->geometry().translated(0, 2)); // Конечная позиция и геометрия анимации
+    animationGroupMPlus->addAnimation(animMPlus); // Добавим анимацию в группу
+    animMPlus = new QPropertyAnimation(ui->MPlus, "geometry");
+    animMPlus->setDuration(60); // Длительность анимации
+    animMPlus->setStartValue(ui->MPlus->geometry()); // Стартовая позиция и геометрия анимации
+    animMPlus->setEndValue(ui->MPlus->geometry().translated(0, 0)); // Конечная позиция и геометрия анимации
+    animationGroupMPlus->addAnimation(animMPlus); // Добавим анимацию в группу
+
+    // MMinus
+    QPropertyAnimation* animMMinus = new QPropertyAnimation(ui->MMinus, "geometry");
+    animMMinus->setDuration(60); // Длительность анимации
+    animMMinus->setStartValue(ui->MMinus->geometry()); // Стартовая позиция и геометрия анимации
+    animMMinus->setEndValue(ui->MMinus->geometry().translated(0, 2)); // Конечная позиция и геометрия анимации
+    animationGroupMMinus->addAnimation(animMMinus); // Добавим анимацию в группу
+    animMMinus = new QPropertyAnimation(ui->MMinus, "geometry");
+    animMMinus->setDuration(60); // Длительность анимации
+    animMMinus->setStartValue(ui->MMinus->geometry()); // Стартовая позиция и геометрия анимации
+    animMMinus->setEndValue(ui->MMinus->geometry().translated(0, 0)); // Конечная позиция и геометрия анимации
+    animationGroupMMinus->addAnimation(animMMinus); // Добавим анимацию в группу
+
+    // MC
+    QPropertyAnimation* animMC = new QPropertyAnimation(ui->MC, "geometry");
+    animMC->setDuration(60); // Длительность анимации
+    animMC->setStartValue(ui->MC->geometry()); // Стартовая позиция и геометрия анимации
+    animMC->setEndValue(ui->MC->geometry().translated(0, 2)); // Конечная позиция и геометрия анимации
+    animationGroupMC->addAnimation(animMC); // Добавим анимацию в группу
+    animMC = new QPropertyAnimation(ui->MC, "geometry");
+    animMC->setDuration(60); // Длительность анимации
+    animMC->setStartValue(ui->MC->geometry()); // Стартовая позиция и геометрия анимации
+    animMC->setEndValue(ui->MC->geometry().translated(0, 0)); // Конечная позиция и геометрия анимации
+    animationGroupMC->addAnimation(animMC); // Добавим анимацию в группу
+
+
+
 
     // Анимация нажатия кнопки
     // 1
-    QPropertyAnimation* anim1 = new QPropertyAnimation(ui->One, "geometry");
+    QPropertyAnimation* anim1 = new QPropertyAnimation(ui->MS, "geometry");
     anim1->setDuration(60); // Длительность анимации
     anim1->setStartValue(ui->One->geometry()); // Стартовая позиция и геометрия анимации
     anim1->setEndValue(ui->One->geometry().translated(0, 2)); // Конечная позиция и геометрия анимации
@@ -495,12 +563,14 @@ void MainWindow::on_Seven_clicked()
         ui->ValueCalculated->removeItem(ui->ValueCalculated->currentIndex());
         ui->ValueCalculated->addItem(QString::fromStdString(currentText));
         ui->ValueCalculated->setCurrentText(QString::fromStdString(currentText));
+
     }
 
     else
     {
         ui->ValueCalculated->addItem("7");
         ui->ValueCalculated->setCurrentText("7");
+
     }
 }
 
@@ -518,12 +588,14 @@ void MainWindow::on_Eight_clicked()
         ui->ValueCalculated->removeItem(ui->ValueCalculated->currentIndex());
         ui->ValueCalculated->addItem(QString::fromStdString(currentText));
         ui->ValueCalculated->setCurrentText(QString::fromStdString(currentText));
+
     }
 
     else
     {
         ui->ValueCalculated->addItem("8");
         ui->ValueCalculated->setCurrentText("8");
+
     }
 }
 
@@ -541,14 +613,298 @@ void MainWindow::on_Nine_clicked()
         ui->ValueCalculated->removeItem(ui->ValueCalculated->currentIndex());
         ui->ValueCalculated->addItem(QString::fromStdString(currentText));
         ui->ValueCalculated->setCurrentText(QString::fromStdString(currentText));
+
+
     }
 
     else
     {
         ui->ValueCalculated->addItem("9");
         ui->ValueCalculated->setCurrentText("9");
+
+
     }
 }
+
+void MainWindow::ClickProcessing(char operation)
+{
+    string currentText = ui->ValueCalculated->currentText().toStdString();
+    if (currentText != "")
+    {
+        double currentValue = stod(currentText);
+
+        if (lastOperation == '+')
+        {
+            ValueSaved = ValueSaved + currentValue;
+            arifmOperations('+');
+        }
+
+        else if (lastOperation == '-')
+        {
+            ValueSaved = ValueSaved - currentValue;
+            arifmOperations('-');
+        }
+
+        else if (lastOperation == '*')
+        {
+            ValueSaved = ValueSaved * currentValue;
+            arifmOperations('*');
+        }
+
+        else if (lastOperation == '/')
+        {
+            ValueSaved = ValueSaved / currentValue;
+            arifmOperations('/');
+        }
+
+        else
+        {
+            ValueSaved = currentValue;
+            lastOperation = operation;
+        }
+        CountOfOperations = CountOfOperations + 1;
+
+        ui->ValueCalculated->removeItem(ui->ValueCalculated->currentIndex());
+        ui->ValueCalculated->setCurrentText(QString::fromStdString(""));
+
+        penultimateOperationPrev = operation;
+    }
+
+}
+
+
+void MainWindow::arifmOperations(char operation)
+{
+    valueForSavedOperation = ui->ValueCalculated->currentText().toDouble();
+    lastOperation = operation;
+    penultimateOperation = operation;
+}
+
+
+void MainWindow::on_Equal_clicked()
+{
+    animationGroupEqual->start();
+
+    if (lastOperation == '=')
+    {
+        if (penultimateOperation == '+') {
+
+            double tempValueCalculated = ValueSaved + valueForSavedOperation;
+
+            ValueSaved = tempValueCalculated;
+        }
+
+        else if (penultimateOperation == '-') {
+
+            double tempValueCalculated = ValueSaved - valueForSavedOperation;
+
+            ValueSaved = tempValueCalculated;
+        }
+
+        else if (penultimateOperation == '*') {
+
+            double tempValueCalculated = ValueSaved * valueForSavedOperation;
+
+            ValueSaved = tempValueCalculated;
+        }
+
+        else if (penultimateOperation == '/') {
+
+            double tempValueCalculated = ValueSaved / valueForSavedOperation;
+
+            ValueSaved = tempValueCalculated;
+        }
+
+        else if (penultimateOperation == '%') {
+
+            if (penultimateOperationPrev == '+')
+            {
+                ValueSaved = ValueSaved + valueForSavedOperation;
+            }
+
+            else if (penultimateOperationPrev == '-')
+            {
+                ValueSaved = ValueSaved - valueForSavedOperation;
+            }
+
+            else if (penultimateOperationPrev == '*')
+            {
+                ValueSaved = ValueSaved * valueForSavedOperation;
+            }
+
+            else if (penultimateOperationPrev == '/')
+            {
+                ValueSaved = ValueSaved / valueForSavedOperation;
+            }
+        }
+    }
+
+    else if (lastOperation == '+') {
+
+        double tempValueCalculated = ValueSaved + ui->ValueCalculated->currentText().toDouble();
+
+        ValueSaved = tempValueCalculated;
+        valueForSavedOperation = ui->ValueCalculated->currentText().toDouble();
+        lastOperation = '=';
+        penultimateOperation = '+';
+    }
+
+    else if (lastOperation == '-')
+    {
+        double tempValueCalculated = ValueSaved - ui->ValueCalculated->currentText().toDouble();
+
+        ValueSaved = tempValueCalculated;
+        valueForSavedOperation = ui->ValueCalculated->currentText().toDouble();
+        lastOperation = '=';
+        penultimateOperation = '-';
+    }
+
+    else if (lastOperation == '*')
+    {
+        double tempValueCalculated = ValueSaved * ui->ValueCalculated->currentText().toDouble();
+
+        ValueSaved = tempValueCalculated;
+        valueForSavedOperation = ui->ValueCalculated->currentText().toDouble();
+        lastOperation = '=';
+        penultimateOperation = '*';
+    }
+
+    else if (lastOperation == '/')
+    {
+        double tempValueCalculated = ValueSaved / ui->ValueCalculated->currentText().toDouble();
+
+        ValueSaved = tempValueCalculated;
+        valueForSavedOperation = ui->ValueCalculated->currentText().toDouble();
+        lastOperation = '=';
+        penultimateOperation = '/';
+    }
+
+    else if (lastOperation == '%')
+    {
+        if (penultimateOperationPrev == '+')
+        {
+            ValueSaved = ValueSaved + ui->ValueCalculated->currentText().toDouble();
+            penultimateOperationPrev = '+';
+        }
+
+        else if (penultimateOperationPrev == '-')
+        {
+            ValueSaved = ValueSaved - ui->ValueCalculated->currentText().toDouble();
+            penultimateOperationPrev = '-';
+        }
+
+        else if (penultimateOperationPrev == '*')
+        {
+            ValueSaved = ValueSaved * ui->ValueCalculated->currentText().toDouble();
+            penultimateOperationPrev = '*';
+        }
+
+        else if (penultimateOperationPrev == '/')
+        {
+            ValueSaved = ValueSaved / ui->ValueCalculated->currentText().toDouble();
+            penultimateOperationPrev = '/';
+        }
+
+        valueForSavedOperation =  ui->ValueCalculated->currentText().toDouble();
+        lastOperation = '=';
+        penultimateOperation = '%';
+    }
+
+
+    ui->ValueCalculated->removeItem(ui->ValueCalculated->currentIndex());
+    ui->ValueCalculated->addItem(QString::number(ValueSaved));
+    ui->ValueCalculated->setCurrentText(QString::number(ValueSaved));
+
+    repeatOperation = true;
+    newValue = true;
+    CountOfOperations = 0;
+}
+
+
+
+void MainWindow::on_Plus_clicked()
+{
+    animationGroupPlus->start();
+
+    ClickProcessing('+');
+    repeatOperation = false;
+    lastOperation = '+';
+}
+
+
+void MainWindow::on_Minus_clicked()
+{
+    animationGroupPlus->start();
+
+    ClickProcessing('-');
+    repeatOperation = false;
+    lastOperation = '-';
+}
+
+
+void MainWindow::on_Multiply_clicked()
+{
+    animationGroupMultiply->start();
+
+    ClickProcessing('*');
+    repeatOperation = false;
+    lastOperation = '*';
+}
+
+
+void MainWindow::on_Del_clicked()
+{
+    animationGroupDel->start();
+
+    ClickProcessing('/');
+    repeatOperation = false;
+    lastOperation = '/';
+}
+
+
+void MainWindow::on_Percent_clicked()
+{
+    animationGroupPercent->start();
+
+    double currentValue = ui->ValueCalculated->currentText().toDouble();
+
+    valueForSavedOperation = currentValue / 100 * ValueSaved;
+
+    ui->ValueCalculated->removeItem(ui->ValueCalculated->currentIndex());
+    ui->ValueCalculated->addItem(QString::number(currentValue));
+    ui->ValueCalculated->setCurrentText(QString::number(currentValue));
+
+    lastOperation = '=';
+}
+
+
+void MainWindow::on_DelX_clicked()
+{
+    animationGroupDelX->start();
+
+    double currentValue = ui->ValueCalculated->currentText().toDouble();
+
+    double value = 1.0 / currentValue;
+
+    ui->ValueCalculated->removeItem(ui->ValueCalculated->currentIndex());
+    ui->ValueCalculated->addItem(QString::number(value));
+    ui->ValueCalculated->setCurrentText(QString::number(value));  
+}
+
+
+void MainWindow::on_PlusMinus_clicked()
+{
+    animationGroupPlusMinus->start();
+
+    double currentValue = ui->ValueCalculated->currentText().toDouble();
+
+    double value = currentValue * -1.0;
+
+    ui->ValueCalculated->removeItem(ui->ValueCalculated->currentIndex());
+    ui->ValueCalculated->addItem(QString::number(value));
+    ui->ValueCalculated->setCurrentText(QString::number(value));
+}
+
 
 void MainWindow::on_Zero_clicked()
 {
@@ -584,168 +940,6 @@ void MainWindow::on_Zero2_clicked()
     }
 }
 
-void MainWindow::on_Plus_clicked()
-{
-    animationGroupPlus->start();
-
-    ClickProcessing('+');
-    repeatOperation = false;
-    lastOperation = '+';
-}
-
-void MainWindow::ClickProcessing(char operation)
-{
-    string currentValue = ui->ValueCalculated->currentText().toStdString();
-    if (currentValue != "")
-    {
-        if (lastOperation == '+')
-        {
-            ValueSaved = ValueSaved + stof(currentValue);
-            arifmOperations();
-        }
-
-        else if (lastOperation == '-')
-        {
-            ValueSaved = ValueSaved - stof(currentValue);
-            arifmOperations();
-        }
-
-        else if (lastOperation == '*')
-        {
-            ValueSaved = ValueSaved * stof(currentValue);
-            arifmOperations();
-        }
-
-        else if (lastOperation == '/')
-        {
-            ValueSaved = ValueSaved / stof(currentValue);
-            arifmOperations();
-        }
-
-        else
-        {
-            ValueSaved = stof(currentValue);
-            lastOperation = operation;
-        }
-
-    CountOfOperations = CountOfOperations + 1;
-
-    ui->ValueCalculated->removeItem(ui->ValueCalculated->currentIndex());
-    ui->ValueCalculated->setCurrentText(QString::fromStdString(""));
-
-    penultimateOperation = operation;
-
-    }
-
-}
-
-
-void MainWindow::arifmOperations()
-{
-    string currentText = ui->ValueCalculated->currentText().toStdString();
-
-    valueForSavedOperation = stof(currentText);
-}
-
-
-void MainWindow::on_Equal_clicked()
-{
-    animationGroupEqual->start();
-
-    if (lastOperation == '+') {
-
-        float tempValueCalculated = ValueSaved + ui->ValueCalculated->currentText().toFloat();
-
-        ValueSaved = tempValueCalculated;
-        valueForSavedOperation = ui->ValueCalculated->currentText().toFloat();
-        lastOperation = '=';
-        penultimateOperation = '+';
-    }
-
-    else if (lastOperation == '-')
-    {
-        float tempValueCalculated = ValueSaved - ui->ValueCalculated->currentText().toFloat();
-
-        ValueSaved = tempValueCalculated;
-        valueForSavedOperation = ui->ValueCalculated->currentText().toFloat();
-        lastOperation = '=';
-        penultimateOperation = '-';
-    }
-
-    else if (lastOperation == '=')
-    {
-        if (penultimateOperation == '+') {
-
-            float tempValueCalculated = ValueSaved + valueForSavedOperation;
-
-            ValueSaved = tempValueCalculated;
-        }
-
-        if (penultimateOperation == '-') {
-
-            float tempValueCalculated = ValueSaved - valueForSavedOperation;
-
-            ValueSaved = tempValueCalculated;
-        }
-    }
-
-    ui->ValueCalculated->removeItem(ui->ValueCalculated->currentIndex());
-    ui->ValueCalculated->addItem(QString::number(ValueSaved));
-    ui->ValueCalculated->setCurrentText(QString::number(ValueSaved));
-
-    repeatOperation = true;
-    newValue = true;
-    CountOfOperations = 0;
-}
-
-
-
-void MainWindow::on_Minus_clicked()
-{
-    animationGroupPlus->start();
-
-    ClickProcessing('-');
-    repeatOperation = false;
-    lastOperation = '-';
-
-}
-
-
-void MainWindow::on_DelX_clicked()
-{
-    animationGroupDelX->start();
-
-}
-
-
-void MainWindow::on_Multiply_clicked()
-{
-    animationGroupMultiply->start();
-
-}
-
-
-void MainWindow::on_Percent_clicked()
-{
-    animationGroupPercent->start();
-
-}
-
-
-void MainWindow::on_Del_clicked()
-{
-    animationGroupDel->start();
-
-}
-
-
-void MainWindow::on_PlusMinus_clicked()
-{
-    animationGroupPlusMinus->start();
-
-}
-
-
 void MainWindow::on_C_clicked()
 {
     animationGroupC->start();
@@ -761,7 +955,6 @@ void MainWindow::on_CE_clicked()
 
     ui->ValueCalculated->removeItem(ui->ValueCalculated->currentIndex());
     ui->ValueCalculated->setCurrentText("");
-
 }
 
 
@@ -786,4 +979,66 @@ void MainWindow::on_Strelka_clicked()
 void MainWindow::on_Point_clicked()
 {
     animationGroupPoint->start();
+
+    string currentText = ui->ValueCalculated->currentText().toStdString();
+
+    if (currentText.find(".") == string::npos)
+    {
+        currentText += ".";
+
+        ui->ValueCalculated->removeItem(ui->ValueCalculated->currentIndex());
+        ui->ValueCalculated->addItem(QString::fromStdString(currentText));
+        ui->ValueCalculated->setCurrentText(QString::fromStdString(currentText));
+    }
 }
+
+
+void MainWindow::on_MS_clicked()
+{
+    animationGroupMS->start();
+
+    ui->temporaryValue->setText(ui->ValueCalculated->currentText());
+
+    tempValue = ui->ValueCalculated->currentText().toDouble();
+}
+
+
+void MainWindow::on_MR_clicked()
+{
+    animationGroupMR->start();
+
+    QString currentText = ui->temporaryValue->text();
+
+    ui->ValueCalculated->removeItem(ui->ValueCalculated->currentIndex());
+    ui->ValueCalculated->addItem(currentText);
+    ui->ValueCalculated->setCurrentText(currentText);
+}
+
+
+void MainWindow::on_MPlus_clicked()
+{
+    animationGroupMPlus->start();
+
+    double currentValue = ui->temporaryValue->text().toDouble();
+    ui->temporaryValue->setText(QString::number(currentValue + tempValue));
+}
+
+
+void MainWindow::on_MMinus_clicked()
+{
+    animationGroupMMinus->start();
+
+    double currentValue = ui->temporaryValue->text().toDouble();
+    ui->temporaryValue->setText(QString::number(currentValue - tempValue));
+}
+
+
+
+void MainWindow::on_MC_clicked()
+{
+    animationGroupMC->start();
+
+    ui->temporaryValue->setText("");
+}
+
+
