@@ -114,7 +114,7 @@ void MainWindow::setButtonAnimation()
 
     // Анимация нажатия кнопки
     // 1
-    QPropertyAnimation* anim1 = new QPropertyAnimation(ui->MS, "geometry");
+    QPropertyAnimation* anim1 = new QPropertyAnimation(ui->One, "geometry");
     anim1->setDuration(60); // Длительность анимации
     anim1->setStartValue(ui->One->geometry()); // Стартовая позиция и геометрия анимации
     anim1->setEndValue(ui->One->geometry().translated(0, 2)); // Конечная позиция и геометрия анимации
@@ -681,6 +681,72 @@ void MainWindow::arifmOperations(char operation)
 }
 
 
+
+void MainWindow::on_Plus_clicked()
+{
+    animationGroupPlus->start();
+
+    ClickProcessing('+');
+    repeatOperation = false;
+    lastOperation = '+';
+    penultimateOperation = '+';
+    penultimateOperationPrev = '+';
+}
+
+
+void MainWindow::on_Minus_clicked()
+{
+    animationGroupPlus->start();
+
+    ClickProcessing('-');
+    repeatOperation = false;
+    lastOperation = '-';
+    penultimateOperation = '-';
+    penultimateOperationPrev = '-';
+}
+
+
+void MainWindow::on_Multiply_clicked()
+{
+    animationGroupMultiply->start();
+
+    ClickProcessing('*');
+    repeatOperation = false;
+    lastOperation = '*';
+    penultimateOperation = '*';
+    penultimateOperationPrev = '*';
+}
+
+
+void MainWindow::on_Del_clicked()
+{
+    animationGroupDel->start();
+
+    ClickProcessing('/');
+    repeatOperation = false;
+    lastOperation = '/';
+    penultimateOperation = '/';
+    penultimateOperationPrev = '/';
+}
+
+
+void MainWindow::on_Percent_clicked()
+{
+    animationGroupPercent->start();
+
+    double currentValue = ui->ValueCalculated->currentText().toDouble();
+
+    valueForSavedOperation = currentValue / 100 * ValueSaved;
+
+    ui->ValueCalculated->removeItem(ui->ValueCalculated->currentIndex());
+    ui->ValueCalculated->addItem(QString::number(valueForSavedOperation));
+    ui->ValueCalculated->setCurrentText(QString::number(valueForSavedOperation));
+
+    lastOperation = '%';
+}
+
+
+
 void MainWindow::on_Equal_clicked()
 {
     animationGroupEqual->start();
@@ -781,25 +847,25 @@ void MainWindow::on_Equal_clicked()
 
     else if (lastOperation == '%')
     {
-        if (penultimateOperationPrev == '+')
+        if (penultimateOperation == '+')
         {
             ValueSaved = ValueSaved + ui->ValueCalculated->currentText().toDouble();
             penultimateOperationPrev = '+';
         }
 
-        else if (penultimateOperationPrev == '-')
+        else if (penultimateOperation == '-')
         {
             ValueSaved = ValueSaved - ui->ValueCalculated->currentText().toDouble();
             penultimateOperationPrev = '-';
         }
 
-        else if (penultimateOperationPrev == '*')
+        else if (penultimateOperation == '*')
         {
             ValueSaved = ValueSaved * ui->ValueCalculated->currentText().toDouble();
             penultimateOperationPrev = '*';
         }
 
-        else if (penultimateOperationPrev == '/')
+        else if (penultimateOperation == '/')
         {
             ValueSaved = ValueSaved / ui->ValueCalculated->currentText().toDouble();
             penultimateOperationPrev = '/';
@@ -820,62 +886,6 @@ void MainWindow::on_Equal_clicked()
     CountOfOperations = 0;
 }
 
-
-
-void MainWindow::on_Plus_clicked()
-{
-    animationGroupPlus->start();
-
-    ClickProcessing('+');
-    repeatOperation = false;
-    lastOperation = '+';
-}
-
-
-void MainWindow::on_Minus_clicked()
-{
-    animationGroupPlus->start();
-
-    ClickProcessing('-');
-    repeatOperation = false;
-    lastOperation = '-';
-}
-
-
-void MainWindow::on_Multiply_clicked()
-{
-    animationGroupMultiply->start();
-
-    ClickProcessing('*');
-    repeatOperation = false;
-    lastOperation = '*';
-}
-
-
-void MainWindow::on_Del_clicked()
-{
-    animationGroupDel->start();
-
-    ClickProcessing('/');
-    repeatOperation = false;
-    lastOperation = '/';
-}
-
-
-void MainWindow::on_Percent_clicked()
-{
-    animationGroupPercent->start();
-
-    double currentValue = ui->ValueCalculated->currentText().toDouble();
-
-    valueForSavedOperation = currentValue / 100 * ValueSaved;
-
-    ui->ValueCalculated->removeItem(ui->ValueCalculated->currentIndex());
-    ui->ValueCalculated->addItem(QString::number(currentValue));
-    ui->ValueCalculated->setCurrentText(QString::number(currentValue));
-
-    lastOperation = '=';
-}
 
 
 void MainWindow::on_DelX_clicked()

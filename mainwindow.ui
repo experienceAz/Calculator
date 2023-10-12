@@ -920,30 +920,6 @@ background-color: white;</string>
      <string/>
     </property>
    </widget>
-   <widget class="QPushButton" name="Menu">
-    <property name="geometry">
-     <rect>
-      <x>40</x>
-      <y>25</y>
-      <width>41</width>
-      <height>21</height>
-     </rect>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">QPushButton {
-background-color: rgb(184, 184, 184);
-color: rgb(0, 0, 0);
-border-radius: 5px;
-}
-
-QPushButton:pressed {
-background-color: rgb(159, 159, 159);
-}</string>
-    </property>
-    <property name="text">
-     <string>-&gt;</string>
-    </property>
-   </widget>
   </widget>
   <widget class="QMenuBar" name="menubar">
    <property name="geometry">
